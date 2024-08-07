@@ -1,5 +1,3 @@
-// script.js
-
 const gameBoard = document.getElementById("game-board");
 const cards = [
   "A",
