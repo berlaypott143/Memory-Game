@@ -77,11 +77,11 @@ function checkForMatch() {
 }
 
 function disableCards() {
-  firstCard.removeEventListener("click", flipCard);
-  secondCard.removeEventListener("click", flipCard);
-
   firstCard.classList.add("matched");
   secondCard.classList.add("matched");
+
+  firstCard.removeEventListener("click", flipCard);
+  secondCard.removeEventListener("click", flipCard);
 
   resetBoard();
 }
